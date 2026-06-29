@@ -7,8 +7,7 @@ class Solution:
         for num in nums:
             if mul > 0:
                 res += num * mul
-                mul -= 1
             else:
                 res += num
-        
+            mul -= 1
         return res
